@@ -15,8 +15,6 @@ Then you need run the `composer update` command.
 
 ## Use
 
-**Important**: For documentation purposes, in the examples below, always we assume than you import the library into your namespace using `use MadTechie3000\laravel-wordcounter;`
-
     $wordcounter = new WordCounter;
     
     $total = $wordcounter->load('some text')
